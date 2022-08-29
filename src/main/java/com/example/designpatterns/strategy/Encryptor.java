@@ -1,4 +1,4 @@
-package com.example.strategydesingpattern.strategy;
+package com.example.designpatterns.strategy;
 
 import lombok.Data;
 

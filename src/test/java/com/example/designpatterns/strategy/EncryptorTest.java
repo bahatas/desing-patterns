@@ -1,4 +1,4 @@
-package com.example.strategydesingpattern.strategy;
+package com.example.designpatterns.strategy;
 
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.any;

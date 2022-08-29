@@ -1,4 +1,4 @@
-package com.example.strategydesingpattern.strategy.ibanconv;
+package com.example.designpatterns.strategy.ibanconv;
 
 public interface IbanPort {
 
