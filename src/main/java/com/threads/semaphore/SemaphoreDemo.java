@@ -41,7 +41,7 @@ public class SemaphoreDemo implements Runnable {
                 }
             } else {
                 for (int i = 0; i < 5; i++) {
-                    System.out.println(name + "value :" + ShareObject.decrementAndGet());
+                    System.out.println(name + "value :" + ShareObject.decrementAndGet()+ " "+Thread.currentThread().getName());
                     Thread.sleep(10);
                 }
             }

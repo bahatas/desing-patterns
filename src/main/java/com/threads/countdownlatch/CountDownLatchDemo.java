@@ -32,17 +32,16 @@ public class CountDownLatchDemo implements Runnable {
         try {
             if (increment) {
                 for (int i = 0; i < 5; i++) {
-                    System.out.println(name + " value : " + ShareObject.decrementAndGet());
-                    Thread.sleep(10);
-
+                    System.out.println(name + " value : " + ShareObject.incrementAndGet()+ " "+Thread.currentThread().getName());
+                    Thread.sleep(1000);
                     countDownLatch.countDown();
                 }
             } else {
                 countDownLatch.await();
 
                 for (int i = 0; i < 5; i++) {
-                    System.out.println(name + " value : " + ShareObject.decrementAndGet());
-                    Thread.sleep(10);
+                    System.out.println(name + " value : " + ShareObject.decrementAndGet()+ " "+Thread.currentThread().getName());
+                    Thread.sleep(1000);
                 }
             }
         } catch (InterruptedException e) {
