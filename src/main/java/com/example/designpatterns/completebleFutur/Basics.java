@@ -76,6 +76,7 @@ public class Basics {
         CompletableFuture<String> future2 = CompletableFuture.supplyAsync(() -> "Beatiful");
         CompletableFuture<String> future3 = CompletableFuture.supplyAsync(() -> "World");
 
+
         CompletableFuture<Void> combined = CompletableFuture.allOf(future1, future2, future3);
 
         combined.get();
