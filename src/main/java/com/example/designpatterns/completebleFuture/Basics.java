@@ -1,6 +1,4 @@
-package com.example.designpatterns.completebleFutur;
-
-import org.springframework.scheduling.annotation.Async;
+package com.example.designpatterns.completebleFuture;
 
 import java.util.concurrent.*;
 
