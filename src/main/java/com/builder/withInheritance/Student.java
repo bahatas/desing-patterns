@@ -6,9 +6,9 @@ import lombok.experimental.SuperBuilder;
 
 
 
-@Builder
+@SuperBuilder
 @Data
-public class Student {
+public class Student extends Member {
     private String name;
     private String surname;
     private String email;

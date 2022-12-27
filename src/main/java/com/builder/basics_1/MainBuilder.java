@@ -1,4 +1,6 @@
-package com.builder;
+package com.builder.basics_1;
+
+import java.util.List;
 
 public class MainBuilder {
 
@@ -9,6 +11,7 @@ public class MainBuilder {
                 .email("email")
                 .phoneNumber(123455)
                 .year(2)
+                .courses(List.of("Java","Spring"))
                 .build();
 
         System.out.println(student);
