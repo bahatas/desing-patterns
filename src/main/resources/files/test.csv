@@ -1,0 +1,13 @@
+Name,Client,Action,Impact,Occurrences,ID
+ioweurnw,Swisscom,Data Leak,10,1,1
+ioweurnw,Swisscom,Suspicious Activity,3,1,2
+ioweurnw,BCV,Data Leak,6,3,3
+ioweurnw,BCV,Suspicious Activity,2,29,4
+ioweurnw,BCF,Data Leak,7,1,5
+ioweurnw,BCF,Suspicious Activity,2,2,6
+jnalksjfvn,BCF,Suspicious Activity,2,2,105
+ajknvkjae,BCV,Data Leak,9,2,8
+ajknvkjae,BCV,Suspicious Activity,9,1,9
+ajknvkjae,Credit Suisse,Data Leak,4,11,10
+ajknvkjae,Credit Suisse,Suspicious Activity,3,2,11
+ajknvkjae,Swisscom,Suspicious Activity,10,4,12
