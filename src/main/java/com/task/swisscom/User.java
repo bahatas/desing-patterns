@@ -1,4 +1,4 @@
-package com.task;
+package com.task.swisscom;
 
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvBindByPosition;

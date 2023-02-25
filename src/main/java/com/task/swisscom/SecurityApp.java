@@ -1,7 +1,6 @@
-package com.task;
+package com.task.swisscom;
 
 import java.io.IOException;
-import java.util.List;
 
 public class SecurityApp {
     public static void main(String[] args) throws IOException {
@@ -14,6 +13,8 @@ public class SecurityApp {
         //2
         String actionType = "Suspicious Activity";
         dataService.getCountOfAction(actionType);
+        //3
+        dataService.getUserWhoCausedMostSevereIncident();
 
 
     }
